@@ -1,13 +1,13 @@
-SparkFun High Precision Temperature Sensor TMP117 (Qwiic)
+SparkFun Digital Temperature Sensor Breakout - AS6212 (Qwiic)
 ========================================
 
-[![SparkFun High Precision Temperature Sensor TMP117 (Qwiic)](https://cdn.sparkfun.com//assets/parts/1/4/4/3/0/15805-SparkFun_High_Precision_Temperature_Sensor_-_TMP117__Qwiic_-01.jpg)](https://www.sparkfun.com/products/15805)
+[![SparkFun Digital Temperature Sensor Breakout - AS6212 (Qwiic)](https://cdn.sparkfun.com/assets/parts/1/7/9/7/0/18521-SparkFun_Digital_Temperature_Sensor_Breakout_-_AS6212__Qwiic_-01.jpg)](https://www.sparkfun.com/products/18521)
 
-[*SparkFun High Precision Temperature Sensor TMP117 (Qwiic) (SEN-15805)*](https://www.sparkfun.com/products/15805)
+[*SparkFun Digital Temperature Sensor Breakout - AS6212 (Qwiic)(SEN-18521)*](https://www.sparkfun.com/products/18521)
 
-The TMP117 is a high precision temperature sensor with accuracy of up to +/-0.1 degrees Celsius (across the temperature range of -20°C to +50°Cs with no calibration) and an operating temperature range of -55°C to +150°C. It is NIST traceable and verified with equipment that is calibrated to ISO/IEC 17025 accredited standards. It has a very low power consumption with a supply range of 1.8V to 5.5V.
+The AS6212 provides a combination of high temperature accuracy with excellent low power consumption using the AS6212 digital temperature sensor from ams AG. The AS6212 measures temperature with &plusmn;0.2&deg;C accuracy between -10&deg;C to 65&deg;C, consumes an average of 6&micro;A (0.1&micro;A in standby) and communicates over I<sup>2</sup>C so naturally we put it on a Qwiic breakout to add to our ever expanding Qwiic system. The sensor boasts a host of features including a configurable alert pin that can trigger when temperature data exceeds user-defined temperature thresholds. All of this in a tiny IC package measuring 1.5mm x 1mm.
 
-The TMP117 address can be changed with an external jumper to 4 different addresses. There are 4 different conversion modes that it can read from, with continuous conversion, shutdown, and one shot conversion. There is also digital offset for system correction, programmable temperature limits, general-purpose EEPROM, and selectable averaging.
+The AD0 and AD1 jumpers control the I<sup>2</sup>C address as well as enabling/disabling the Alert pin. By default, these two-way jumpers connect the AD0 pin to Ground and the Alert/AD1 pin to 3.3V to enable the Alert pin and set the I<sup>2</sup>C address to 0x48. These jumpers control the address and enable/disable the Alert pin.
 
 Repository Contents
 -------------------
@@ -20,14 +20,14 @@ Documentation
 --------------
 
 * **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
-* **[Library](https://github.com/sparkfun/SparkFun_TMP117_Arduino_Library)** - Arduino library for the SparkFun High Precision Temperature Sensor TMP117 (Qwiic).
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-tmp117-high-precision-digital-temperature-sensor-hookup-guide)** - Basic hookup guide for the SparkFun High Precision Temperature Sensor TMP117 (Qwiic).
+* **[SparkFun AS6212 Qwiic Arduino Library](https://github.com/sparkfun/SparkFun_AS6212_Qwiic_Arduino_Library)** - Arduino library for the SparkFun Digital Temperature Sensor Breakout - AS6212 (Qwiic).
+* **[Qwiic AS6212 Py](https://github.com/sparkfun/Qwiic_AS6212_Py)** - Python module for the SparkFun Digital Temperature Sensor Breakout - AS6212 (Qwiic).
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/digital-temperature-sensor-breakout---as6212-qwiic-hookup-guide)** - Basic hookup guide for the SparkFun Digital Temperature Sensor Breakout - AS6212 (Qwiic).
 
 Version History
 ---------------
 
-* [SparkFun High Precision Temperature Sensor TMP117 (Qwiic)](https://www.sparkfun.com/products/15805) - SparkFun Reds
-* [SparkX Qwiic TMP117](https://www.sparkfun.com/products/15413) - Initial product release under SparkX 
+* [SEN-18521](https://www.sparkfun.com/products/18521) - Initial release of the SparkFun Digital Temperature Sensor Breakout - AS6212 (Qwiic).
 
 License Information
 -------------------
